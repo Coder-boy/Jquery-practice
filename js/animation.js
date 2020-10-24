@@ -42,5 +42,14 @@ $(document).ready(function () {
         an.animate({height:'300px'},'slow');
         an.animate({width:'300px'},'slow');
         an.animate({fontSize:'50px'},'flow')
-    })
+    });
+
+    $(".btn5").click(function () {
+       $(".box5").animate({
+           width : '500px',
+           height : '400px',
+       },3000).animate({
+           fontSize : '30px'
+       },3000).fadeOut();
+    });
 })
